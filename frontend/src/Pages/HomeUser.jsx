@@ -16,7 +16,7 @@ const HomeUser = () => {
 
   const getData = async () => {
     await axios
-      .get("http://localhost:3000/")
+      .get("https://e-commerce-react-backend-z8tt.onrender.com/")
       .then((res) => {
         setProductData(res.data.products);
       })

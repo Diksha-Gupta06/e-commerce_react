@@ -23,7 +23,7 @@ const ProductDetail = () => {
 
   const getProductDetail = async () => {
     try {
-      const res = await axios.get("http://localhost:3000/products/" + productId)
+      const res = await axios.get("https://e-commerce-react-backend-z8tt.onrender.com/products/" + productId)
       setProductData(res.data.product)
       setForm({
         title: res.data.product.title || "",
@@ -56,7 +56,7 @@ const ProductDetail = () => {
     if (form.image) formData.append("image", form.image)
 
     try {
-      await axios.post(`http://localhost:3000/products/update/${productId}`, formData)
+      await axios.post(`https://e-commerce-react-backend-z8tt.onrender.com/products/update/${productId}`, formData)
       setShowUpdateForm(false)
       navigate("/admin") // Redirect to home page
     } catch (err) {
@@ -66,7 +66,7 @@ const ProductDetail = () => {
 
   const handleDelete = async () => {
     try {
-      await axios.get(`http://localhost:3000/products/delete/${productId}`)
+      await axios.get(`https://e-commerce-react-backend-z8tt.onrender.com/products/delete/${productId}`)
       navigate("/admin")
     } catch (err) {
       console.log(err)
