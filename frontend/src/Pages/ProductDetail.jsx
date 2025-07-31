@@ -76,10 +76,10 @@ const ProductDetail = () => {
   return (
     <div className='product-container'>
       <div className="main">
-        <div className="left">
+        <div className="p-left">
           <img src={productData.image} alt={productData.title} />
         </div>
-        <div className="right">
+        <div className="p-right">
           <h1>{productData.title}</h1>
           <p>{productData.description}</p>
           <h2>Price: {productData.price}</h2>

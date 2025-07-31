@@ -14,17 +14,17 @@
     display: flex;
 }
 
-.left {
+.p-left {
     width: 50%;
     height: 100%;
 
 }
 
-.left img {
+.p-left img {
     height: 100%;
     width: 100%;
 }
-.right {
+.p-right {
     height: 100%;
     width: 50%;
 }

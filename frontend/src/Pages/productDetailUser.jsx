@@ -30,10 +30,10 @@ const ProductDetailUser = () => {
     <div className='product-container'>
      
       <div className="main">
-        <div className="left">
+        <div className="p-left">
             <img src={productData.image} alt="" />
         </div>
-        <div className="right">
+        <div className="p-right">
             <h1 id="p-title">{productData.title}</h1>
             <p id="p-description">{productData.description}</p>
             <div className="button">

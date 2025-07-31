@@ -17,18 +17,18 @@
     background-color: whitesmoke;
 }
 
-.left {
+.p-left {
     width: 50%;
     height: 60%;
     margin: 10px;
 
 }
 
-.left img {
+.p-left img {
     height: 100%;
     width: 100%;
 }
-.right {
+.p-right {
     height: 100%;
     width: 50%;
     margin-top: 25px;

@@ -23,11 +23,11 @@ nav .search input {
 #add-product {
     background: black;
     border: 2px solid white;
-    border-radius: 20px;
+    border-radius: 15px;
     color: white;
     cursor: pointer;
-    font-size: 20px;
-    width:250px;
-    padding-left: 50px;
+    font-size: 18px;
+    width:150px;
+    padding: 5px;
     margin-left: 70px;
 }

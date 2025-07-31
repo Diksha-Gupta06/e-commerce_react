@@ -6,6 +6,7 @@ nav {
     justify-content: space-between;
     align-items: center;
     padding: 5px 50px;
+    gap:20px;
     
 }
 
@@ -17,6 +18,25 @@ nav .search input {
     border: none;
 }
 
+.right {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+    margin: 25px;
+}
+
+.admin-btn {
+    background: black;
+    color: white;
+    border: 2px solid white;
+    border-radius: 20px;
+    padding: 6px 18px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-right: 10px;
+}
 
 .cart-btn {
     background: none;
