@@ -1,0 +1,33 @@
+nav {
+    height: 50px;
+    width: 100%;
+    background-color: rgb(158, 214, 195);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 10px;
+}
+
+.search{
+    display: flex;
+    align-items: center;
+}
+nav .search input {
+
+    width: 500px;
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+}
+
+#add-product {
+    background: black;
+    border: 2px solid white;
+    border-radius: 20px;
+    color: white;
+    cursor: pointer;
+    font-size: 20px;
+    width:250px;
+    padding-left: 50px;
+    margin-left: 70px;
+}
