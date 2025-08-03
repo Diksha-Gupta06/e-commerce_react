@@ -7,7 +7,7 @@ const NavbarUser = ({ cartCount, onCartClick }) => {
   return (
     <nav>
       <div className="left">
-        <Link to="/"><h1>e-commerce.in</h1></Link>
+        <Link to="/"><h1 id="main-title">e-commerce.in</h1></Link>
       </div>
       <div className="right">
         
@@ -22,7 +22,7 @@ const NavbarUser = ({ cartCount, onCartClick }) => {
               {cartCount}
             </span>
           )}
-          <i className="ri-shopping-cart-line"></i>
+          <p id="cart-icon"><i class="ri-shopping-cart-line"></i></p>
         </button>
         
         <Link to="/admin">
