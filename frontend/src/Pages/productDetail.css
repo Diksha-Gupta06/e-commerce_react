@@ -29,6 +29,30 @@
     width: 50%;
 }
 
+#p-title {
+    color: black;
+    margin: 10px;
+    font-size: 50px;
+}
+
+#p-description {
+    color: black;
+    margin: 10px;
+    font-size: 20px;
+}
+
+#p-category {
+    color: black;
+    margin: 10px;
+    font-size: 20px;
+}
+
+#p-price {
+    color: black;
+    margin: 10px;
+    font-size: 30px;
+}
+
 .edit-buttons {
     display: flex;
     gap:40px;

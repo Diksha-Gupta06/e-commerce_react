@@ -80,10 +80,10 @@ const ProductDetail = () => {
           <img src={productData.image} alt={productData.title} />
         </div>
         <div className="p-right">
-          <h1>{productData.title}</h1>
-          <p>{productData.description}</p>
-          <p>{productData.category}</p>
-          <h2>Price: {productData.price}</h2>
+          <h1 id="p-title">{productData.title}</h1>
+          <p id="p-description">{productData.description}</p>
+          <p id="p-category">{productData.category}</p>
+          <h2 id="p-price">Price: {productData.price}</h2>
           <div className="edit-buttons">
             <button id="update-button" onClick={() => setShowUpdateForm(true)}>Update Item</button>
             <button id="delete-button" onClick={handleDelete}>Delete Item</button>
