@@ -12,7 +12,7 @@ app.use(morgon("dev"))
 
 
 app.use(cors({
-    origin:"https://e-commerce-react-frontend-scfa.onrender.com/"
+    origin:"https://e-commerce-react-frontend-scfa.onrender.com"
 }))
 
 app.use(express.json())
