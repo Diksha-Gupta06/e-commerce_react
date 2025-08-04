@@ -63,7 +63,7 @@ const HomeUser = () => {
               <img src={elem.image} alt="" />
             </div>
             <div className="bottom">
-              <Link to={`/products/detail/${elem._id}`}><h2>{elem.title}</h2></Link>
+              <Link to={`/products/detail/${elem._id}`}><h2 id="product-title">{elem.title}</h2></Link>
               <p>{elem.description}</p>
               <h3>Price : {elem.price}</h3>
               <div className="button">

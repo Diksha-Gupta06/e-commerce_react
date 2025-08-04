@@ -36,7 +36,7 @@ const Home = () => {
             />
           </div>
           <div className="bottom">
-            <Link to={`/admin/products/detail/${elem._id}`}><h2>{elem.title}</h2></Link>
+            <Link to={`/admin/products/detail/${elem._id}`}><h2 id="product-title">{elem.title}</h2></Link>
             <p>
               {elem.description}
             </p>
