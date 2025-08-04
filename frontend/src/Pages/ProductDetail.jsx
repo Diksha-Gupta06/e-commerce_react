@@ -82,6 +82,7 @@ const ProductDetail = () => {
         <div className="p-right">
           <h1>{productData.title}</h1>
           <p>{productData.description}</p>
+          <p>{productData.category}</p>
           <h2>Price: {productData.price}</h2>
           <div className="edit-buttons">
             <button id="update-button" onClick={() => setShowUpdateForm(true)}>Update Item</button>

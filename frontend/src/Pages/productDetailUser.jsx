@@ -36,6 +36,8 @@ const ProductDetailUser = () => {
         <div className="p-right">
             <h1 id="p-title">{productData.title}</h1>
             <p id="p-description">{productData.description}</p>
+            <p id="p-category">{productData.category}</p>
+            <h2 id="p-price">Price: {productData.price}</h2>
             <div className="button">
                 <button id="add">Add to Cart</button>
                 <button id="buy">Buy Now</button>
